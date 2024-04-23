@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Poll24</title>
+</head>
+
+<body>
+    <h1>Poll24</h1>
+    <p>Please use the form below to get in touch with us:</p>
+
+    <!-- Note: This form does not actually send an email but is set up to do so with server-side scripting -->
+    <form action="mailto:robertsbaer@yahoo.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Write your message here" rows="4"
+            required></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
+</body>
+
+</html>
